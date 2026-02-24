@@ -8,6 +8,11 @@ routing rows, applying template logic, and exporting data to CSV.
 - Menu-driven tooling and workflow actions
 - Data transformation and CSV export logic
 
+## Design notes
+- Batch read/write operations are used instead of row-by-row edits to improve performance.
+- Menu-driven actions are preferred to reduce accidental execution.
+- Logic is separated by responsibility (workflow, routing, export) for maintainability.
+
 ## Files
 - `USR.gs` — workflow utilities and menu actions
 - `SendToTemplateSheet.gs` — routes data into template sheets
