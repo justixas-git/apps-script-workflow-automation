@@ -1,20 +1,18 @@
-# Google Sheets Workflow Automation (Apps Script)
+# Google Apps Script — Spreadsheet Workflow Automation
 
-A sanitized set of Google Apps Script tools for automating spreadsheet workflows:
-routing rows between sheets, applying templates, and exporting CSVs to Drive.
+A sanitized code sample of Google Apps Script utilities used to automate recurring spreadsheet workflows:
+routing rows, applying template logic, and exporting data to CSV.
 
-## What it does
-- Adds custom menus for workflow actions
-- Moves / processes rows based on status and rules
-- Generates CSV exports and saves them to Drive
+## What this demonstrates
+- Practical automation for reducing repetitive manual work
+- Menu-driven tooling and workflow actions
+- Data transformation and CSV export logic
 
 ## Files
-- `USR.gs` — sheet workflow utilities and menu actions
+- `USR.gs` — workflow utilities and menu actions
 - `SendToTemplateSheet.gs` — routes data into template sheets
 - `DownloadCSV.gs` — exports template sheets to CSV and saves to Drive, allows download options
 
-## Privacy / Sanitization
-This repository is a generalized, sanitized version:
-- Sheet names are generalized
-- URLs are replaced with placeholders
-- Drive folder IDs are replaced with placeholders
+## Note on sanitization
+This is a generalized, sanitized version:
+sheet names, URLs, and IDs are replaced with placeholders.
