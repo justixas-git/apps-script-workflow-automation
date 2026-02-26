@@ -1,9 +1,12 @@
 # Google Apps Script — Spreadsheet Workflow Automation
 
+This repository is presented as a **supporting tooling example**, demonstrating how I approach
+automation, separation of responsibility, and workflow efficiency outside of game development contexts.
+
 A sanitized code sample of Google Apps Script utilities used to automate recurring spreadsheet workflows:
 routing rows, applying template logic, and exporting data to CSV.
 
-## What this demonstrates
+## What this demonstrates (tooling & automation)
 - Practical automation for reducing repetitive manual work
 - Menu-driven tooling and workflow actions
 - Data transformation and CSV export logic
